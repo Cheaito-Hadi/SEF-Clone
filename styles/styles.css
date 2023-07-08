@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+.talent {
+    display: flex;
+    height: 100vh;
+}
+
+.left-talent{
+    width: 50%;
+    height: 100%;
+    background: url("../images/talent-left.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-color{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(40, 238, 167, 0.93);
+}
+
+.right-talent{
+    width: 50%;
+    height: 100%;
+    background: url("../images/talent-right.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.right-color{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    opacity: 0.7;
+    background-color: #363738;
+}
+
