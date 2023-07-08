@@ -7,6 +7,7 @@ body{
 .talent {
     display: flex;
     height: 100vh;
+    padding-bottom: 70px;
 }
 
 .left-talent{
@@ -47,8 +48,12 @@ body{
     height: 100%;
     top: 0;
     right: 0;
-    opacity: 0.7;
+    opacity: 0.9;
     background-color: #363738;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .sef-logo{
@@ -66,7 +71,16 @@ body{
     padding-right: 70px; 
 }
 
-#title {
+.right-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px; 
+}
+
+#left-title {
     font-family: 'Noto Sans Mono', sans-serif;
     font-weight: 900;
     color: white;
@@ -75,7 +89,7 @@ body{
     padding-right: 10px;
 }
 
-#domain {
+#left-domain {
     font-family: 'Noto Sans Mono', sans-serif;
     font-weight: 900;
     color: #363738;
@@ -83,7 +97,7 @@ body{
     line-height: 1;
 }
 
-#description {
+#left-description {
     font-family: 'Noto Sans Mono', sans-serif;
     color: #363738;
     text-align: end;
@@ -92,10 +106,46 @@ body{
     line-height: 1.5;
 }
 
-#get-trained{
+#left-get-trained{
     font-family: 'Noto Sans Mono', sans-serif;
     font-weight: 900;
     color: white;
     background-color: #363738;
     padding: 15px 20px;
 }
+
+#right-title {
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-weight: 900;
+    color: #363738;
+    background-color: #fcfcfd ;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 60px;
+}
+
+#right-domain {
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-weight: 900;
+    color: #fcfcfd;
+    font-size: 36px;
+    line-height: 1;
+}
+
+#right-description {
+    font-family: 'Noto Sans Mono', sans-serif;
+    color: #fcfcfd;
+    text-align: start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+#right-get-trained{
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-weight: 900;
+    color: #363738;
+    background-color: #fcfcfd;
+    padding: 15px 20px;
+}
+
