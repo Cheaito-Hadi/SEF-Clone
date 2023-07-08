@@ -154,7 +154,7 @@ body {
     justify-content: space-between;
 }
 
-.container{
+.hello-container{
 
     margin-left: 90px;
     margin-right: 90px;
@@ -211,3 +211,45 @@ body {
 .youtube{
     padding: 70px 0px;
 }
+
+.milestone{
+    height: 600px;
+    padding: 20px 70px;
+    margin: 0px 90px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.box-1{
+    width: 300px;
+    padding: 60px 70px;
+    border-radius: 20px;
+    background-color: #f1f2f3;
+    display: flex;
+    flex-direction: column;
+}
+.box-1-percentage{
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    color: #363738;
+}
+
+.box-1-title {
+    font-size: 32px;
+    font-family: 'Noto Sans Mono', sans-serif;
+    color: #363738;
+    font-weight: 900;
+}
+
+.box-1-description{
+    font-family: 'Noto Sans Mono', sans-serif;
+    color: #363738;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    padding: 0
+}
+
