@@ -514,8 +514,129 @@ ul {
     color: #f1f2f3;
 }
 
+.hire-body{
+    background-color: #363738;
+    height: 100vh;
+    padding-top: 70px;
 
+}
 
+.hire-container{
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 0px 70px;
+}
+
+.hire-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hire-border{
+    font-family: 'Noto Sans Mono', sans-serif;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: #363738;
+    color: white;
+}
+
+.hire-border ::before{
+    content: "> ";
+    color: #28eea7;
+}
+
+#circle1 {
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    background-color: #f1f2f3;
+    margin-left: 10px;
+}
+#circle2 {
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    background-color: #a5a6a9;
+    margin-left: 10px;
+}
+#circle3 {
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    background-color: #28eea7;
+    margin-left: 10px;
+}
+
+.hire-holder{
+    display: flex;
+    margin-top:30px;
+    background-color: #232323;
+    padding: 40px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.hire-partner{
+    color: #f1f2f3;
+    font-size: 22px;
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-weight: 900;
+    padding: 10px 0px;
+}
+
+.company{
+    padding: 15px 20px;
+    background-color: #363738;
+    margin-top: 20px;
+    color:#f1f2f3;
+    font-family: 'Noto Sans Mono', sans-serif;
+
+}
+
+.hire-green{
+    color: #28eea7;
+    font-weight: 900;
+}
+
+ol li{
+    color: #dcdee1;
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-family: 14px;
+}
+
+#hire-white{
+    color:#f1f2f3;
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-family: 14px;
+
+}
+
+.hire-contact{
+    font-family: 'Noto Sans Mono', sans-serif;
+    color:#f1f2f3;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 15px 20px;
+    background-color: rgba(54, 55, 56, .75);
+    text-align: right;
+    margin: 15px 0px;
+
+}
+
+.hire-factory{
+    text-align: right;
+    color:#f1f2f3;
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hrfactory{
+    padding: 0px 10px;
+}
 
 
 
