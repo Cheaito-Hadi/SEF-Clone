@@ -247,7 +247,7 @@ body {
     font-size: 14px;
 }
 
-ul {
+#list {
     list-style: none;
     padding: 0
 }
@@ -665,7 +665,7 @@ ol li{
 .testi-border ::before{
     content: ">";
     color: #28eea7;
-    
+    margin-right: 20px;
 }
 
 .testi-description{
@@ -725,4 +725,109 @@ ol li{
 
 .profile-bigger-pic{
     border-radius: 10px;
+}
+
+.faqs-body{
+    height: 100vh;
+    padding-top: 70px;
+    background-color: #363738;
+}
+
+.faqs-container{
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 0px 70px;
+}
+
+.faqs-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.faqs-border{
+    font-family: 'Noto Sans Mono', sans-serif;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 900;
+    color: #fcfcfd;
+}
+
+.faqs-border ::before{
+    content: ">";
+    color: #28eea7;
+    margin-right: 20px;
+}
+
+.faqs-green{
+    color: #28eea7;
+    font-family: 'Noto Sans Mono', sans-serif;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 900;
+
+}
+
+.faqs-collapse {
+    font-size: 14px;
+    background-color: #232323;
+    padding: 30px;
+    line-height: 1.6;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+details > summary {
+    list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.faqs-question {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.faqs-info {
+    color: #fcfcfd;
+    font-family: 'Noto Sans Mono', sans-serif;
+    align-self: flex-end;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+details > summary::after {
+    content: "\2304";
+    color: #fcfcfd;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+details[open]>summary {
+    margin-bottom: 30px;
+}
+
+.faqs-text{
+    color: #fcfcfd;
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-size: 14px;
+
+}
+
+.text-green-list{
+    color: #28eea7;
+    font-weight: 900;
+}
+
+.view-all{
+    padding: 15px 20px;
+    background-color: #232323;
+    font-family: 'Noto Sans Mono', sans-serif;
+    font-weight: 900;
+    text-align: right;
+    color: #fcfcfd;
 }
